@@ -51,16 +51,15 @@ After deployed, map the worker to a Domain Name to configure cache. Only Workers
 
 | Endpoint                                                                                         | Method | Description                               | Example                                                                                       |
 | ------------------------------------------------------------------------------------------------ | ------ | ----------------------------------------- | --------------------------------------------------------------------------------------------- |
-| `/search?query={query}`                                                                          | GET    | Search titles by title                    | [Try It](https://imdb-api.projects.thetuhin.com/search?query=Little%20Things)                 |
-| `/title/{imdb_id}`                                                                               | GET    | Get details of a title                    | [Try It](https://imdb-api.projects.thetuhin.com/title/tt6522580)                              |
-| `/reviews/{imdb_id}?option={helpfulness\|date\|votes\|rating}&sortOrder={asc\|desc}`             | GET    | Get reviews of a title                    | [Try It](https://imdb-api.projects.thetuhin.com/reviews/tt6522580?option=date&sortOrder=desc) |
-| `/title/{imdb_id}/season/{season_id}`                                                            | GET    | (New) Fetch a single season of a series   | [Try It](https://imdb-api.projects.thetuhin.com/title/tt6522580/season/4)                     |
-| `/user/{user_id}`                                                                                | GET    | (New) Fetch an user's info                | [Try It](https://imdb-api.projects.thetuhin.com/user/ur82525142)                              |
-| `/user/{user_id}/ratings?ratingFilter={1-10}&sort={most_recent\|oldest\|top_rated\|worst_rated}` | GET    | (New) Fetch an user's ratings and reviews | [Try It](https://imdb-api.projects.thetuhin.com/user/ur82525142/ratings)                      |
+| `/search?query={query}`                                                                          | GET    | Search titles by title                    | [Try It](https://imdb.zoro.mom/search?query=Little%20Things)                 |
+| `/title/{imdb_id}`                                                                               | GET    | Get details of a title                    | [Try It](https://imdb.zoro.mom/title/tt6522580)                              |
+| `/reviews/{imdb_id}?option={helpfulness\|date\|votes\|rating}&sortOrder={asc\|desc}`             | GET    | Get reviews of a title                    | [Try It](https://imdb.zoro.mom/reviews/tt6522580?option=date&sortOrder=desc) |
+| `/title/{imdb_id}/season/{season_id}`                                                            | GET    | (New) Fetch a single season of a series   | [Try It](https://imdb.zoro.mom/title/tt6522580/season/4)                     |
+| `/user/{user_id}`                                                                                | GET    | (New) Fetch an user's info                | [Try It](https://imdb.zoro.mom/user/ur82525142)                              |
+| `/user/{user_id}/ratings?ratingFilter={1-10}&sort={most_recent\|oldest\|top_rated\|worst_rated}` | GET    | (New) Fetch an user's ratings and reviews | [Try It](https://imdb.zoro.mom/user/ur82525142/ratings)                      |
 
 ## License 🎯
 
-- Licensed under [Apache-2.0](https://github.com/tuhinpal/imdb-api/blob/master/LICENSE)
-- Made by [Tuhin Kanti Pal](https://github.com/tuhinpal)
+- Licensed under [Apache-2.0](https://github.com/Xaiby1/imdb-api/blob/master/LICENSE)
 
 ### Have a good day 🤘
